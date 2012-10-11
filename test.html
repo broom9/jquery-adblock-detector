@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="jquery.adblock-detector.js"></script>
+		<script>
+			$(function(){
+				$().detectAdBlock(function(){
+					$("#result").html("Found AdBlock");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="result">
+			No AdBlock
+		</div>
+	</body>
+</html>
